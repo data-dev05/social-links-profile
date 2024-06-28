@@ -1,7 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-size: 14px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+body #card {
+  background-color: hsl(0, 0%, 12%);
+  width: 300px;
+  min-height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  gap: 1rem;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  padding: 15px;
+}
+body #card #personal-information {
+  line-height: 1.6rem;
+}
+body #card #personal-information img {
+  border-radius: 50%;
+  height: 4.5rem;
+  margin-bottom: 1.5rem;
+}
+body #card #personal-information h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+body #card #personal-information p:nth-of-type(1) {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+body #card #personal-information p:nth-of-type(2) {
+  margin-top: 1rem;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+body #card a {
+  text-decoration: none;
+}
+body #card .social-media {
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px 75px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+body #card .social-media:hover {
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
 }
 
 /*# sourceMappingURL=styles.css.map */
